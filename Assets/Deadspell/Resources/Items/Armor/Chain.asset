@@ -1,0 +1,5627 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9205590715412694212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Boots +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.30000019
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Boots +2
+  Category: 32
+--- !u!114 &-9109098416310448405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Gloves +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.30000019
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Gloves +1
+  Category: 32
+--- !u!114 &-8641416456988963044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Coif +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.60000014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Coif +1
+  Category: 32
+--- !u!114 &-8614929116613074940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Boots -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.69999993
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Boots -3
+  Category: 32
+--- !u!114 &-8025012103446753293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Gloves -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -2.69999981
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Gloves -4
+  Category: 32
+--- !u!114 &-7887595113703758808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Shirt -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.0999999
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Shirt -5
+  Category: 32
+--- !u!114 &-7558776296671356197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Boots +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Boots +4
+  Category: 32
+--- !u!114 &-7444034708216945833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Pants -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Pants -1
+  Category: 32
+--- !u!114 &-6755711515764500876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Shirt -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.9000001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Shirt -3
+  Category: 32
+--- !u!114 &-6551410147139501260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Gloves -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.69999993
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Gloves -3
+  Category: 32
+--- !u!114 &-6187189726553483404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Coif +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Coif +2
+  Category: 32
+--- !u!114 &-6167345940728756538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Boots -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.6999999
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Boots -2
+  Category: 32
+--- !u!114 &-5552854077482789632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Pants +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Pants +1
+  Category: 32
+--- !u!114 &-5341913666700391152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Pants -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.9000001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Pants -2
+  Category: 32
+--- !u!114 &-5300651663551396776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Gloves
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.30000007
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Gloves
+  Category: 32
+--- !u!114 &-4532155337674424619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Shirt +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 7.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Shirt +4
+  Category: 32
+--- !u!114 &-2862909989026085257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Shirt -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Shirt -1
+  Category: 32
+--- !u!114 &-2774995746604257037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Pants +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 7.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Pants +4
+  Category: 32
+--- !u!114 &-2681789051031917082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Coif +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Coif +4
+  Category: 32
+--- !u!114 &-2036308589929143554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Pants +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 8.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Pants +5
+  Category: 32
+--- !u!114 &-1790247394908947535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Pants -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.0999999046
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Pants -4
+  Category: 32
+--- !u!114 &-1540122722914818095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Gloves -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -3.69999981
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Gloves -5
+  Category: 32
+--- !u!114 &-627084224105170982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Gloves -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.6999999
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Gloves -2
+  Category: 32
+--- !u!114 &-518057862512186001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Gloves -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.300000072
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Gloves -1
+  Category: 32
+--- !u!114 &-437137006462066584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Gloves +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Gloves +4
+  Category: 32
+--- !u!114 &-46025385211303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Pants +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Pants +2
+  Category: 32
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39265a34d08841fd945eea39fe9d4044, type: 3}
+  m_Name: Chain
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ArmorNames
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[System.String, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 1
+      Data: Shirt
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 1
+      Data: Pants
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 1
+      Data: Boots
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 1
+      Data: Coif
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 1
+      Data: Gloves
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmorClassSplit
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WeightSplit
+      Entry: 7
+      Data: 3|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmorColors
+      Entry: 7
+      Data: 4|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[Deadspell.ValueReferences.ColorReference, Assembly-CSharp]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 5|System.Collections.Generic.EnumEqualityComparer`1[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: Chain $Name$
+  ArmorToGenerate: 248
+  ArmorType: 1
+  TotalArmorClass: 13
+  TotalWeight: 20
+  Sprite: {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+  Value: 50
+  VendorCategory: 32
+  GenerateMagicItems: 1
+  MagicItemTemplate:
+    UnidentifiedName: Unidentified $Name$
+    MinBonus: 1
+    MaxBonus: 5
+    IncludeCursed: 1
+--- !u!114 &106369538067638799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Coif +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 7.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Coif +5
+  Category: 32
+--- !u!114 &299595080241509191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Gloves +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.30000019
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Gloves +2
+  Category: 32
+--- !u!114 &1814213660193363694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Shirt +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Shirt +3
+  Category: 32
+--- !u!114 &1970583554709454273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Shirt +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Shirt +1
+  Category: 32
+--- !u!114 &2143942881509390879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Shirt -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.9000001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Shirt -2
+  Category: 32
+--- !u!114 &2305745919395738496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Coif -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -2.39999986
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Coif -5
+  Category: 32
+--- !u!114 &2320570302629179801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Gloves +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Gloves +3
+  Category: 32
+--- !u!114 &2451062758310656174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Shirt -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.0999999046
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Shirt -4
+  Category: 32
+--- !u!114 &2506272287168063193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Shirt +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Shirt +2
+  Category: 32
+--- !u!114 &2774180286405114423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Boots
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.30000007
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Boots
+  Category: 32
+--- !u!114 &2788077464557199450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Pants -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.0999999
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Pants -5
+  Category: 32
+--- !u!114 &2963196152420230102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Shirt
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Shirt
+  Category: 32
+--- !u!114 &3218800582659456069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Pants
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Pants
+  Category: 32
+--- !u!114 &3436384228053426912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Boots -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -3.69999981
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Boots -5
+  Category: 32
+--- !u!114 &3531714442422522115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Coif -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.60000014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Coif -1
+  Category: 32
+--- !u!114 &3554658908656480562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Coif -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.39999986
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Coif -4
+  Category: 32
+--- !u!114 &3835210234735166795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Coif -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.399999857
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Coif -3
+  Category: 32
+--- !u!114 &3940599476507836156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Gloves +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Gloves +5
+  Category: 32
+--- !u!114 &4506282547420077308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Coif
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.60000014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Coif
+  Category: 32
+--- !u!114 &5687350570980211128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Boots +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.30000019
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Boots +1
+  Category: 32
+--- !u!114 &6521363977981701657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Boots +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Boots +5
+  Category: 32
+--- !u!114 &6537398546094764718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Boots -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.300000072
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Boots -1
+  Category: 32
+--- !u!114 &6994155783205290380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Pants +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Pants +3
+  Category: 32
+--- !u!114 &7210727102599747106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Boots -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -2.69999981
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Boots -4
+  Category: 32
+--- !u!114 &7736425422474432980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Shirt +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 8.9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Shirt
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Shirt +5
+  Category: 32
+--- !u!114 &7869416682669992903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Coif -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.600000143
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Coif -2
+  Category: 32
+--- !u!114 &8824210533531425504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Chain Pants -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.9000001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Chain Pants -3
+  Category: 32
+--- !u!114 &8924212195938939093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Coif +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Coif
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Coif +3
+  Category: 32
+--- !u!114 &9199900394990233554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Chain Boots +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Chain Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Chain Boots +3
+  Category: 32

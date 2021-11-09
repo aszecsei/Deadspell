@@ -1,0 +1,1289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8720762931315545786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Light Crossbow -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-1
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8-1
+    - Name: HitBonus
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Light Crossbow -1
+  Category: 4
+--- !u!114 &-6981045253538959797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Light Crossbow +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+5
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8+5
+    - Name: HitBonus
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Light Crossbow +5
+  Category: 4
+--- !u!114 &-5241997140859172598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Light Crossbow -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-3
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8-3
+    - Name: HitBonus
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 6.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Light Crossbow -3
+  Category: 4
+--- !u!114 &-5180138390418842590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Light Crossbow -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-5
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8-5
+    - Name: HitBonus
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 4.16666651
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Light Crossbow -5
+  Category: 4
+--- !u!114 &-4445474952156602269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Light Crossbow -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-2
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8-2
+    - Name: HitBonus
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Light Crossbow -2
+  Category: 4
+--- !u!114 &-117207340939268144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Light Crossbow -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-4
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8-4
+    - Name: HitBonus
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Light Crossbow -4
+  Category: 4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acb3ab88d132451bb0e40c715336e453, type: 3}
+  m_Name: Light Crossbow Template
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Base: {fileID: 11400000, guid: 38d99d3a56428f941894031702790d79, type: 2}
+  MagicItemTemplate:
+    UnidentifiedName: Unidentified $Name$
+    MinBonus: 1
+    MaxBonus: 5
+    IncludeCursed: 1
+--- !u!114 &1186424247072319399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Light Crossbow +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+1
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8+1
+    - Name: HitBonus
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Light Crossbow +1
+  Category: 4
+--- !u!114 &2265206880564860766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Light Crossbow +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+2
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8+2
+    - Name: HitBonus
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Light Crossbow +2
+  Category: 4
+--- !u!114 &2294405724088412724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Light Crossbow +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+3
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8+3
+    - Name: HitBonus
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Light Crossbow +3
+  Category: 4
+--- !u!114 &6267920846046440290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Light Crossbow +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8599784473047275017, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 0.6666667
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 1
+    - Name: Handedness
+      Entry: 3
+      Data: 1
+    - Name: Heaviness
+      Entry: 3
+      Data: 1
+    - Name: Range
+      Entry: 3
+      Data: 16
+    - Name: Attribute
+      Entry: 3
+      Data: 1
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+4
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: 1d8+4
+    - Name: HitBonus
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 125
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Light Crossbow
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Light Crossbow +4
+  Category: 4

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d07768955e47b893b8eb6aa14dbdc8, type: 3}
+  m_Name: Bear Trap
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 4177225535304953778, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 8515a7e54b86dc84fa43f5ba4d09861e, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Data.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Light
+      Entry: 6
+      Data: 
+    - Name: EntityTrigger
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Deadspell.Data.Effect, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Deadspell.Data.DamageEffect, Assembly-CSharp
+    - Name: Damage
+      Entry: 7
+      Data: Deadspell.Core.Damage, Assembly-CSharp
+    - Name: Amount
+      Entry: 1
+      Data: 6
+    - Name: Type
+      Entry: 3
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: Bear Trap
+  Hidden: 1
+  SingleActivation: 1

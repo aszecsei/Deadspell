@@ -1,0 +1,5627 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9200231757840798433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Boots +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Boots +2
+  Category: 32
+--- !u!114 &-9130183417882628234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Cap -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -2.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 1.66666663
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Cap -5
+  Category: 32
+--- !u!114 &-9026005381681711893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Vest -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.399999857
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Vest -4
+  Category: 32
+--- !u!114 &-8785718753085874773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Gloves +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Gloves +3
+  Category: 32
+--- !u!114 &-8576724345035304516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Boots +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Boots +1
+  Category: 32
+--- !u!114 &-8488423247028749222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Cap +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Cap +3
+  Category: 32
+--- !u!114 &-8344419628348633925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Vest -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.39999986
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 1.66666663
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Vest -5
+  Category: 32
+--- !u!114 &-8044940152804225703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Pants
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.60000014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Pants
+  Category: 32
+--- !u!114 &-7531882372500886536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Gloves +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Gloves +2
+  Category: 32
+--- !u!114 &-6336465777503529938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Vest -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.600000143
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Vest -3
+  Category: 32
+--- !u!114 &-6278458358085345170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Pants -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.399999857
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Pants -4
+  Category: 32
+--- !u!114 &-6086567661781171076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Pants +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Pants +1
+  Category: 32
+--- !u!114 &-5827807780164519069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Gloves -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -3.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 1.66666663
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Gloves -5
+  Category: 32
+--- !u!114 &-5686143959770361328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Pants -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.60000014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 3.33333325
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Pants -2
+  Category: 32
+--- !u!114 &-5443643782491136808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Vest +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Vest +1
+  Category: 32
+--- !u!114 &-5382556036764442546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Gloves +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Gloves +5
+  Category: 32
+--- !u!114 &-5327594614980498253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Boots +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Boots +4
+  Category: 32
+--- !u!114 &-4449022518747736500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Gloves -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -2.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Gloves -4
+  Category: 32
+--- !u!114 &-4429023133054838660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Boots -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -2.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Boots -4
+  Category: 32
+--- !u!114 &-3847801136826544749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Boots -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -3.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 1.66666663
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Boots -5
+  Category: 32
+--- !u!114 &-3253292743966010136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Cap
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Cap
+  Category: 32
+--- !u!114 &-2895492223268933225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Boots -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Boots -3
+  Category: 32
+--- !u!114 &-2788457614890893073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Cap +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Cap +4
+  Category: 32
+--- !u!114 &-2443083428551854654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Boots
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Boots
+  Category: 32
+--- !u!114 &-2303628966037648172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Cap +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Cap +2
+  Category: 32
+--- !u!114 &-1785041233600145688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Boots +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Boots +3
+  Category: 32
+--- !u!114 &-1507875325050465685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Pants +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Pants +2
+  Category: 32
+--- !u!114 &-1007304302380080434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Pants +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Pants +3
+  Category: 32
+--- !u!114 &-958200213205186165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Cap -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.5999999
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Cap -3
+  Category: 32
+--- !u!114 &-789412237252607152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Gloves +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Gloves +4
+  Category: 32
+--- !u!114 &-488490672046335061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Cap -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.4000001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Cap -1
+  Category: 32
+--- !u!114 &-199515057060083090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Pants -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.600000143
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Pants -3
+  Category: 32
+--- !u!114 &-109502901051267815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Vest +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 7.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Vest +4
+  Category: 32
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39265a34d08841fd945eea39fe9d4044, type: 3}
+  m_Name: Hide
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ArmorNames
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[System.String, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 1
+      Data: Vest
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 1
+      Data: Pants
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 1
+      Data: Boots
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 1
+      Data: Cap
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 1
+      Data: Gloves
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmorClassSplit
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WeightSplit
+      Entry: 7
+      Data: 3|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmorColors
+      Entry: 7
+      Data: 4|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[Deadspell.ValueReferences.ColorReference, Assembly-CSharp]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 5|System.Collections.Generic.EnumEqualityComparer`1[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: Hide $Name$
+  ArmorToGenerate: 248
+  ArmorType: 1
+  TotalArmorClass: 12
+  TotalWeight: 12
+  Sprite: {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+  Value: 10
+  VendorCategory: 32
+  GenerateMagicItems: 1
+  MagicItemTemplate:
+    UnidentifiedName: Unidentified $Name$
+    MinBonus: 1
+    MaxBonus: 5
+    IncludeCursed: 1
+--- !u!114 &649341667775662078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Boots -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.799999952
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 3.33333325
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Boots -2
+  Category: 32
+--- !u!114 &1160128950480250294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Pants -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.60000014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Pants -1
+  Category: 32
+--- !u!114 &1358127109863022739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Boots -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.200000048
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Boots -1
+  Category: 32
+--- !u!114 &1545077572693235105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Vest
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.60000014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Vest
+  Category: 32
+--- !u!114 &2398866262416854418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Pants +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 7.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Pants +4
+  Category: 32
+--- !u!114 &2429756943690964305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Vest +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Vest +3
+  Category: 32
+--- !u!114 &3017381561807378845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Gloves -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.799999952
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 3.33333325
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Gloves -2
+  Category: 32
+--- !u!114 &3349201963777084230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Gloves +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Gloves +1
+  Category: 32
+--- !u!114 &3489299071914116186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Cap -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.5999999
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Cap -4
+  Category: 32
+--- !u!114 &3522211561265669973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Vest -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.60000014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Vest -1
+  Category: 32
+--- !u!114 &3738908416047338266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Gloves -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.200000048
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Gloves -1
+  Category: 32
+--- !u!114 &3811755737332097545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Vest +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 8.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Vest +5
+  Category: 32
+--- !u!114 &5194779222931971755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Pants -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.39999986
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 1.66666663
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Pants -5
+  Category: 32
+--- !u!114 &5729808114437092654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Vest +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.60000038
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Vest +2
+  Category: 32
+--- !u!114 &6039219801234518308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Gloves
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Gloves
+  Category: 32
+--- !u!114 &6439424191439327629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Cap -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.4000001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 3.33333325
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Cap -2
+  Category: 32
+--- !u!114 &7092340096752452369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Gloves -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Gloves -3
+  Category: 32
+--- !u!114 &7336652611071097326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Boots +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Boots +5
+  Category: 32
+--- !u!114 &7653192566863119148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Cap +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Cap +1
+  Category: 32
+--- !u!114 &7702693755777153363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Pants +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 8.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Pants
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Pants +5
+  Category: 32
+--- !u!114 &7790936135204279248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Hide Vest -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.60000014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 4.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 3.33333325
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Vest
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Hide Vest -2
+  Category: 32
+--- !u!114 &8826166848109669536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Hide Cap +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 7.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Hide Cap
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Hide Cap +5
+  Category: 32

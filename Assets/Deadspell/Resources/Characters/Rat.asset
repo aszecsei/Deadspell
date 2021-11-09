@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ed711865a545bca77a6f6a46e50a67, type: 3}
+  m_Name: Rat
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -957877446302991081, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 7
+      Data: 1|System.Collections.Generic.Dictionary`2[[Deadspell.Core.AttributeType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 2|System.Collections.Generic.EnumEqualityComparer`1[[Deadspell.Core.AttributeType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Skills
+      Entry: 7
+      Data: 3|System.Collections.Generic.Dictionary`2[[Deadspell.Core.Skill, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 4|System.Collections.Generic.EnumEqualityComparer`1[[Deadspell.Core.Skill,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Level
+      Entry: 7
+      Data: System.Nullable`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Health
+      Entry: 7
+      Data: System.Nullable`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Mana
+      Entry: 7
+      Data: System.Nullable`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Natural
+      Entry: 7
+      Data: 5|Deadspell.Recipes.CharacterRecipe+CharacterNatural, Assembly-CSharp
+    - Name: ArmorClass
+      Entry: 7
+      Data: System.Nullable`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attacks
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Deadspell.Recipes.CharacterRecipe+CharacterNatural+Attack,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|Deadspell.Recipes.CharacterRecipe+CharacterNatural+Attack, Assembly-CSharp
+    - Name: Name
+      Entry: 1
+      Data: Bite
+    - Name: HitBonus
+      Entry: 3
+      Data: 0
+    - Name: Damage
+      Entry: 1
+      Data: 1d4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Light
+      Entry: 6
+      Data: 
+    - Name: Abilities
+      Entry: 6
+      Data: 
+    - Name: OnDeath
+      Entry: 6
+      Data: 
+  Name: Rat
+  GenericMonster: 1
+  Race: {fileID: 0}
+  Type: 1
+  BlocksTile: 1
+  VisionRange: 8
+  Movement: 0
+  Quips:
+  - Squeak!
+  - Squeeeak squeak!
+  Equipped: []
+  LootTable: {fileID: 0}
+  Faction: {fileID: 11400000, guid: 7c42a4a52b15001439bd65b7a2bc81aa, type: 2}
+  Gold: 
+  Vendor: 0

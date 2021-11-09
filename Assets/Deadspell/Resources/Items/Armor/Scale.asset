@@ -1,0 +1,5627 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8565782739764076364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Boots +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Boots +2
+  Category: 32
+--- !u!114 &-8561493432357285242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Boots +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Boots +1
+  Category: 32
+--- !u!114 &-8463907930399589863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Helm -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -2.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Helm -5
+  Category: 32
+--- !u!114 &-8363178334605977994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Greaves -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Greaves -1
+  Category: 32
+--- !u!114 &-8358094614148141244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Helm
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Helm
+  Category: 32
+--- !u!114 &-7985899225231796893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Gloves -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Gloves -3
+  Category: 32
+--- !u!114 &-6966943296384517171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Greaves -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Greaves -2
+  Category: 32
+--- !u!114 &-6932203531164748503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Boots -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Boots -3
+  Category: 32
+--- !u!114 &-6861701878538381293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Greaves +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 7.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Greaves +3
+  Category: 32
+--- !u!114 &-6678664869473414011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Helm -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.200000048
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Helm -3
+  Category: 32
+--- !u!114 &-6371541507620716470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Armor -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.7999997
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Armor -5
+  Category: 32
+--- !u!114 &-6326469249309648470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Boots -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.399999976
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Boots -1
+  Category: 32
+--- !u!114 &-6199639078717756428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Gloves +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Gloves +2
+  Category: 32
+--- !u!114 &-5420588447412667090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Boots -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -2.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Boots -4
+  Category: 32
+--- !u!114 &-5372639673772393978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Helm -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Helm -1
+  Category: 32
+--- !u!114 &-5140814615195818548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Gloves +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Gloves +3
+  Category: 32
+--- !u!114 &-5096806718011379612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Armor +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 9.200001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Armor +5
+  Category: 32
+--- !u!114 &-5085237186886782934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Armor +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 8.200001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Armor +4
+  Category: 32
+--- !u!114 &-5028428463891637497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Greaves
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Greaves
+  Category: 32
+--- !u!114 &-4769290659745160531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Gloves -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.399999976
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Gloves -1
+  Category: 32
+--- !u!114 &-4642191490778753730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Boots -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Boots -2
+  Category: 32
+--- !u!114 &-3438545972143040608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Gloves +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Gloves +1
+  Category: 32
+--- !u!114 &-3167603365528979462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Gloves +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Gloves +4
+  Category: 32
+--- !u!114 &-2209481292312476273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Gloves +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Gloves +5
+  Category: 32
+--- !u!114 &-2186815623436895813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Greaves +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 8.200001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Greaves +4
+  Category: 32
+--- !u!114 &-2101380737153962273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Helm -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.799999952
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Helm -2
+  Category: 32
+--- !u!114 &-2090917410587067213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Gloves -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -2.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Gloves -4
+  Category: 32
+--- !u!114 &-590276116124431576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Boots -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -3.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Boots -5
+  Category: 32
+--- !u!114 &-540870599065761020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Boots +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Boots +3
+  Category: 32
+--- !u!114 &-417653551609704784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Helm +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Helm +2
+  Category: 32
+--- !u!114 &-84168985669479657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Boots
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Boots
+  Category: 32
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39265a34d08841fd945eea39fe9d4044, type: 3}
+  m_Name: Scale
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ArmorNames
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[System.String, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 1
+      Data: Armor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 1
+      Data: Greaves
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 1
+      Data: Boots
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 1
+      Data: Helm
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 1
+      Data: Gloves
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmorClassSplit
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WeightSplit
+      Entry: 7
+      Data: 3|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmorColors
+      Entry: 7
+      Data: 4|System.Collections.Generic.Dictionary`2[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp],[Deadspell.ValueReferences.ColorReference, Assembly-CSharp]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 5|System.Collections.Generic.EnumEqualityComparer`1[[Deadspell.Core.EquipmentSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: Scale $Name$
+  ArmorToGenerate: 248
+  ArmorType: 1
+  TotalArmorClass: 14
+  TotalWeight: 45
+  Sprite: {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+  Value: 50
+  VendorCategory: 32
+  GenerateMagicItems: 1
+  MagicItemTemplate:
+    UnidentifiedName: Unidentified $Name$
+    MinBonus: 1
+    MaxBonus: 5
+    IncludeCursed: 1
+--- !u!114 &527667999218039418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Armor +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Armor +2
+  Category: 32
+--- !u!114 &733359263416531161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Greaves +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Greaves +1
+  Category: 32
+--- !u!114 &926196725999469817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Helm +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Helm +3
+  Category: 32
+--- !u!114 &1626134157236907426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Armor -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Armor -1
+  Category: 32
+--- !u!114 &1902772576642029233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Greaves -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.200000286
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Greaves -4
+  Category: 32
+--- !u!114 &1908636919981342005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Armor +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Armor +1
+  Category: 32
+--- !u!114 &2003182117727762370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Armor -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 0.200000286
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Armor -4
+  Category: 32
+--- !u!114 &2130154023724708153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Gloves -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Gloves -2
+  Category: 32
+--- !u!114 &2331206930841781643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Boots +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Boots +5
+  Category: 32
+--- !u!114 &3353829077516736585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Helm +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Helm +4
+  Category: 32
+--- !u!114 &3817094142684776904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Boots +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 0d0f03f6436646c408e282a8ce27b07a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 64
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 5.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Boots
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Boots +4
+  Category: 32
+--- !u!114 &3917211622598693053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Greaves -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Greaves -3
+  Category: 32
+--- !u!114 &4278701393061464671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Greaves +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 6.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Greaves +2
+  Category: 32
+--- !u!114 &4735598289900525520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Armor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 4.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Armor
+  Category: 32
+--- !u!114 &5020943483843641509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Greaves +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 9.200001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Greaves +5
+  Category: 32
+--- !u!114 &5101276345532476247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Helm +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 3.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Helm +1
+  Category: 32
+--- !u!114 &5194135874285749533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Armor -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 12.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Armor -3
+  Category: 32
+--- !u!114 &5882316695902333216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Helm -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Helm -4
+  Category: 32
+--- !u!114 &6847320682866780872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Armor -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 2.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 16.666666
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Armor -2
+  Category: 32
+--- !u!114 &7048187038215601526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Armor +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: ac6930c668e456340ae32420d4aaf69a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 16
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 7.20000029
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Armor
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Armor +3
+  Category: 32
+--- !u!114 &7118698787743527741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Gloves
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 1.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 6
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Gloves
+  Category: 32
+--- !u!114 &7795578444071735816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Greaves -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: eb02004475f368f4e867ec9dcc834f07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 32
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -0.7999997
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 15.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Greaves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Greaves -5
+  Category: 32
+--- !u!114 &8455317601324487222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Scale Helm +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 3c1c609efd16ee54b969e72daa440d60, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 8
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: 7.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Helm
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Scale Helm +5
+  Category: 32
+--- !u!114 &8565994019699049823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Scale Gloves -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4683485518732208331, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: cf74ab1af98d0e84f937ba8eb7b2bd55, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 6
+      Data: 
+    - Name: Wearable
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Wearable, Assembly-CSharp
+    - Name: Slot
+      Entry: 3
+      Data: 128
+    - Name: ArmorType
+      Entry: 3
+      Data: 1
+    - Name: ArmorClass
+      Entry: 4
+      Data: -3.6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 8.333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Scale Gloves
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Scale Gloves -5
+  Category: 32

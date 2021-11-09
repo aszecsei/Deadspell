@@ -1,0 +1,1289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8240735717203356335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Handaxe -5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-5
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: -5
+    - Name: HitBonus
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 0.8333333
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Handaxe -5
+  Category: 4
+--- !u!114 &-6744727141427603389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Handaxe +5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+5
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: +5
+    - Name: HitBonus
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Handaxe +5
+  Category: 4
+--- !u!114 &-5852676184916846065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Handaxe -2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-2
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: -2
+    - Name: HitBonus
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 1.66666663
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Handaxe -2
+  Category: 4
+--- !u!114 &-327273242264040999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Handaxe +2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+2
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: +2
+    - Name: HitBonus
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Handaxe +2
+  Category: 4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acb3ab88d132451bb0e40c715336e453, type: 3}
+  m_Name: Handaxe Template
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Base: {fileID: 11400000, guid: 712fd64f0a71031428165926d5f6c080, type: 2}
+  MagicItemTemplate:
+    UnidentifiedName: Unidentified $Name$
+    MinBonus: 1
+    MaxBonus: 5
+    IncludeCursed: 1
+--- !u!114 &1757572119005498372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Handaxe +4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+4
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: +4
+    - Name: HitBonus
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Handaxe +4
+  Category: 4
+--- !u!114 &2953806702542359870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Handaxe +3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+3
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: +3
+    - Name: HitBonus
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Handaxe +3
+  Category: 4
+--- !u!114 &4270168747091154395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Handaxe -4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-4
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: -4
+    - Name: HitBonus
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Handaxe -4
+  Category: 4
+--- !u!114 &4497687510429775027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Handaxe -3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-3
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: -3
+    - Name: HitBonus
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 1.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Handaxe -3
+  Category: 4
+--- !u!114 &5510394711297401203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Cursed Handaxe -1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6-1
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: -1
+    - Name: HitBonus
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Cursed Handaxe -1
+  Category: 4
+--- !u!114 &8284422345959466265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0daecaab77d1e9418d82c86c6325692, type: 3}
+  m_Name: Handaxe +1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3031062192555007526, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Renderable
+      Entry: 7
+      Data: 0|Deadspell.Recipes.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.333333343
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Consumable
+      Entry: 6
+      Data: 
+    - Name: Weapon
+      Entry: 7
+      Data: 1|Deadspell.Recipes.Weapon, Assembly-CSharp
+    - Name: RangeType
+      Entry: 3
+      Data: 2
+    - Name: Handedness
+      Entry: 3
+      Data: 0
+    - Name: Heaviness
+      Entry: 3
+      Data: 0
+    - Name: Range
+      Entry: 3
+      Data: 4
+    - Name: Attribute
+      Entry: 3
+      Data: 0
+    - Name: OneHandedDamage
+      Entry: 1
+      Data: 1d6+1
+    - Name: TwoHandedDamage
+      Entry: 1
+      Data: +1
+    - Name: HitBonus
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Wearable
+      Entry: 6
+      Data: 
+    - Name: Weight
+      Entry: 7
+      Data: 2|Deadspell.Recipes.Weight, Assembly-CSharp
+    - Name: ItemWeight
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 7
+      Data: 3|Deadspell.Recipes.Value, Assembly-CSharp
+    - Name: ItemValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Magic
+      Entry: 7
+      Data: 4|Deadspell.Recipes.MagicItem, Assembly-CSharp
+    - Name: Class
+      Entry: 3
+      Data: 0
+    - Name: Naming
+      Entry: 3
+      Data: 0
+    - Name: UnidentifiedName
+      Entry: 1
+      Data: Unidentified Handaxe
+    - Name: Cursed
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Attributes
+      Entry: 6
+      Data: 
+  Name: Handaxe +1
+  Category: 4
