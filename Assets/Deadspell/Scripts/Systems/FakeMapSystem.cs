@@ -2,6 +2,7 @@
 using Deadspell.Core;
 using Deadspell.Data;
 using Deadspell.Map;
+using Deadspell.MapBuilders;
 using Entitas;
 using UnityEngine;
 
@@ -18,23 +19,11 @@ namespace Deadspell.Systems
         
         public void Initialize()
         {
-            _context.CreateEntity().AddGameMap(new MapData("Last Hearth", 40, 30));
-            var gameData = _context.gameMap.MapData;
-            for (var y = 0; y < gameData.Height; y++)
-            {
-                for (var x = 0; x < gameData.Width; x++)
-                {
-                    if (x == 0 || y == 0 || x == gameData.Width - 1 || y == gameData.Height - 1)
-                    {
-                        gameData[x, y].Type = TileType.Wall;
-                    }
-                    else
-                    {
-                        gameData[x, y].Type = TileType.Floor;
-                    }
-                }
-            }
+            var mapBuilder = MapBuilder.ExampleMapBuilder();
+            var mapData = mapBuilder.Build();
+            _context.CreateEntity().AddGameMap(mapData.Map, mapData.StartingPosition!.Value);
 
+            /*
             var enemyTile = Resources.Load<Tile>("EnemyTile");
             var enemy = _context.CreateEntity();
             enemy.AddPosition(new Vector2Int(10, 10));
@@ -62,6 +51,7 @@ namespace Deadspell.Systems
             chair.AddPosition(new Vector2Int(10, 10));
             chair.AddRenderable(TileCache.GetTile(chairTile.Sprite, chairTile.Color), 2);
             chair.AddName("Chair");
+            */
         }
     }
 }

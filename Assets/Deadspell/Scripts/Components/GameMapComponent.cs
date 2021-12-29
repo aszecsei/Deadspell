@@ -1,6 +1,7 @@
 ﻿using Deadspell.Map;
 using Entitas;
 using Entitas.CodeGeneration.Attributes;
+using UnityEngine;
 
 namespace Deadspell.Components
 {
@@ -8,5 +9,6 @@ namespace Deadspell.Components
     public class GameMapComponent : IComponent
     {
         public MapData MapData;
+        public Vector2Int PlayerStart;
     }
 }

@@ -51,6 +51,7 @@ public class GameLog : MonoBehaviour
 
     public static void Log(string text)
     {
-        s_instance.AddLog(text);
+        if (s_instance != null)
+            s_instance.AddLog(text);
     }
 }

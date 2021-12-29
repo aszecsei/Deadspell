@@ -24,6 +24,9 @@ MonoBehaviour:
     - {fileID: -5325777517095953515, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
     - {fileID: 11400000, guid: d1e3ef77c5ca73444befe1ce8d889cdb, type: 2}
     - {fileID: 11400000, guid: a2c1c46d3d3aa4a4b8e41be884624c0b, type: 2}
+    - {fileID: 2950423622424955172, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: 761ed6c7a679fd0438e02660138ac508, type: 2}
+    - {fileID: 5366906531692080728, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -60,7 +63,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 4
+      Data: 6
     - Name: 
       Entry: 7
       Data: 
@@ -139,6 +142,48 @@ MonoBehaviour:
     - Name: Color
       Entry: 10
       Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 7|Deadspell.Data.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 8
+    - Name: Color
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 8|Deadspell.Data.Renderable, Assembly-CSharp
+    - Name: Sprite
+      Entry: 10
+      Data: 10
+    - Name: Color
+      Entry: 10
+      Data: 9
     - Name: 
       Entry: 8
       Data: 

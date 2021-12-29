@@ -22,7 +22,7 @@ namespace Deadspell.Systems
             _context.isPlayer = true;
             var playerTile = Resources.Load<Tile>("PlayerTile");
             var player = _context.playerEntity;
-            player.AddPosition(new Vector2Int(5, 5));
+            player.AddPosition(_context.gameMap.PlayerStart);
             player.AddRenderable(TileCache.GetTile(playerTile.Sprite, playerTile.Color), 0);
             player.AddName("Ehrye Darkspire"); // TODO
             player.AddAttributes(new Attributes());

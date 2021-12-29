@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Deadspell.Map
@@ -12,6 +13,16 @@ namespace Deadspell.Map
             public TileType Type;
             public bool Revealed;
             public bool Visible;
+
+            public TileData Clone()
+            {
+                return new TileData
+                {
+                    Type = Type,
+                    Revealed = Revealed,
+                    Visible = Visible,
+                };
+            }
         }
 
         public string Name;
@@ -19,6 +30,15 @@ namespace Deadspell.Map
         public SpatialMap Spatial;
         public int Width;
         public int Height;
+
+        private MapData()
+        {
+            Name = "Temporary";
+            Tiles = new TileData[0, 0];
+            Width = 0;
+            Height = 0;
+            Spatial = new SpatialMap();
+        }
 
         public MapData(string name, int width, int height)
         {
@@ -53,6 +73,11 @@ namespace Deadspell.Map
         {
             get => Tiles[pos.x, pos.y];
             set => Tiles[pos.x, pos.y] = value;
+        }
+
+        public void SetTileType(int x, int y, TileType tt)
+        {
+            Tiles[x, y].Type = tt;
         }
 
         public bool IsTransparent(int x, int y)
@@ -143,6 +168,26 @@ namespace Deadspell.Map
         public void ClearBlocked()
         {
             Spatial.Clear();
+        }
+
+        public MapData Clone()
+        {
+            var tilesClone = (TileData[,])Tiles.Clone();
+            for (var x = 0; x < tilesClone.GetLength(0); x++)
+            {
+                for (var y = 0; y < tilesClone.GetLength(1); y++)
+                {
+                    tilesClone[x, y] = tilesClone[x, y].Clone();
+                }
+            }
+            return new MapData
+            {
+                Width = Width,
+                Height = Height,
+                Name = Name,
+                Spatial = (SpatialMap)Spatial.Clone(),
+                Tiles = tilesClone,
+            };
         }
     }
 }

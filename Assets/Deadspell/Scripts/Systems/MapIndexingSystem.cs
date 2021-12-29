@@ -1,4 +1,7 @@
-﻿using Entitas;
+﻿using System.Collections;
+using System.Collections.Generic;
+using Entitas;
+using UnityEngine;
 
 namespace Deadspell.Systems
 {
@@ -19,7 +22,7 @@ namespace Deadspell.Systems
             mapData.Spatial.Clear();
             mapData.Spatial.PopulateBlockedFromMap(mapData);
             mapData.Spatial.PopulateOpaqueFromMap(mapData);
-            
+
             foreach (var e in _positioned)
             {
                 if (e.hasStats)

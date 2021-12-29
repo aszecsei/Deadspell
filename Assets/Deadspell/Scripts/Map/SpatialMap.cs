@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Deadspell.Map
@@ -28,6 +29,18 @@ namespace Deadspell.Map
             public bool Opaque
             {
                 get => OpaqueByMap || OpaqueByEntity;
+            }
+
+            public Cell Clone()
+            {
+                return new Cell
+                {
+                    BlockedByEntity = BlockedByEntity,
+                    BlockedByMap = BlockedByMap,
+                    OpaqueByEntity = OpaqueByEntity,
+                    OpaqueByMap = OpaqueByMap,
+                    Content = Content,
+                };
             }
         }
 
@@ -203,6 +216,22 @@ namespace Deadspell.Map
         {
             if (!IsInBounds(x, y)) return true;
             return Cells[x, y].Opaque;
+        }
+
+        public SpatialMap Clone()
+        {
+            var cellsClone = (Cell[,])Cells.Clone();
+            for (var x = 0; x < Cells.GetLength(0); x++)
+            {
+                for (var y = 0; y < Cells.GetLength(1); y++)
+                {
+                    cellsClone[x, y] = cellsClone[x, y].Clone();
+                }
+            }
+            return new SpatialMap
+            {
+                Cells = (Cell[,])Cells.Clone(),
+            };
         }
     }
 }

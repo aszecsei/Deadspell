@@ -8,6 +8,8 @@
         Grass,
         ShallowWater,
         DeepWater,
+        DownStairs,
+        UpStairs,
     }
 
     public static class TileTypeExt
@@ -20,6 +22,8 @@
                 TileType.Road => true,
                 TileType.Grass => true,
                 TileType.ShallowWater => true,
+                TileType.DownStairs => true,
+                TileType.UpStairs => true,
                 _ => false,
             };
         }
