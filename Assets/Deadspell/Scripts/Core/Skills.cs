@@ -40,8 +40,7 @@ namespace Deadspell.Core
         Stealth = 1 << 29,
     }
     
-    [Serializable]
-    public class Skills : SerializedMonoBehaviour
+    public class Skills
     {
         public Dictionary<Skill, int> SkillValues;
 

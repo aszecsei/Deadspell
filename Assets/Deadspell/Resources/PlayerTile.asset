@@ -22,4 +22,4 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   Sprite: {fileID: -7362472625976960994, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
-  Color: {fileID: 11400000, guid: 703829cd0d0d7b9409155f64432610cd, type: 2}
+  Color: {fileID: 11400000, guid: b04e3a4b22d01a6419894d12ffa905fb, type: 2}

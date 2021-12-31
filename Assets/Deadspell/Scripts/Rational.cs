@@ -5,13 +5,13 @@ namespace Deadspell
 {
     public readonly struct Rational
     {
-        public int Numerator { get; }
-        public int Denominator { get; }
+        public long Numerator { get; }
+        public long Denominator { get; }
 
         public static Rational NaN => new Rational(0, 0);
         public static Rational Zero => new Rational(0, 1);
         
-        public Rational(int numerator, int denominator)
+        public Rational(long numerator, long denominator)
         {
             Numerator = numerator;
             Denominator = denominator;
@@ -34,7 +34,7 @@ namespace Deadspell
                 return;
             }
             
-            int gcd;
+            long gcd;
             while (Math.Abs(gcd = GetGCD(Numerator, Denominator)) != 1)
             {
                 Numerator /= gcd;
@@ -48,7 +48,7 @@ namespace Deadspell
             Denominator = 1;
         }
 
-        private static int GetGCD(int a, int b)
+        private static long GetGCD(long a, long b)
         {
             a = Math.Abs(a);
             b = Math.Abs(b);
@@ -68,7 +68,7 @@ namespace Deadspell
             return a == 0 ? b : a;
         }
 
-        private static int GetLCD(int a, int b)
+        private static long GetLCD(long a, long b)
         {
             return (a * b) / GetGCD(a, b);
         }
@@ -83,7 +83,7 @@ namespace Deadspell
                 }
                 Rational modified = this;
 
-                int gcd;
+                long gcd;
                 while (Math.Abs(gcd = GetGCD(modified.Numerator, modified.Denominator)) != 1)
                 {
                     modified = new Rational(modified.Numerator / gcd, modified.Denominator / gcd);
@@ -103,7 +103,7 @@ namespace Deadspell
             return (double)rational.Numerator / (double)rational.Denominator;
         }
 
-        public Rational ToDenominator(int target)
+        public Rational ToDenominator(long target)
         {
             if (target < Denominator)
             {
@@ -117,7 +117,7 @@ namespace Deadspell
 
             if (Denominator != target)
             {
-                int factor = target / Denominator;
+                long factor = target / Denominator;
                 return new Rational(Numerator * factor, Denominator);
             }
 
@@ -135,7 +135,7 @@ namespace Deadspell
                 return lhs;
             }
 
-            int lcd = GetLCD(lhs.Denominator, rhs.Denominator);
+            long lcd = GetLCD(lhs.Denominator, rhs.Denominator);
             var f1 = lhs.ToDenominator(lcd);
             var f2 = rhs.ToDenominator(lcd);
             return new Rational(f1.Numerator + f2.Numerator, lcd);
@@ -151,7 +151,7 @@ namespace Deadspell
                 return lhs;
             }
 
-            int lcd = GetLCD(lhs.Denominator, rhs.Denominator);
+            long lcd = GetLCD(lhs.Denominator, rhs.Denominator);
             var f1 = lhs.ToDenominator(lcd);
             var f2 = rhs.ToDenominator(lcd);
             return new Rational(f1.Numerator - f2.Numerator, lcd);
@@ -185,7 +185,7 @@ namespace Deadspell
                 return false;
             }
 
-            int lcd = GetLCD(lhs.Denominator, rhs.Denominator);
+            long lcd = GetLCD(lhs.Denominator, rhs.Denominator);
             var f1 = lhs.ToDenominator(lcd);
             var f2 = rhs.ToDenominator(lcd);
             return f1.Numerator > f2.Numerator;
@@ -198,7 +198,7 @@ namespace Deadspell
                 return false;
             }
 
-            int lcd = GetLCD(lhs.Denominator, rhs.Denominator);
+            long lcd = GetLCD(lhs.Denominator, rhs.Denominator);
             var f1 = lhs.ToDenominator(lcd);
             var f2 = rhs.ToDenominator(lcd);
             return f1.Numerator >= f2.Numerator;
@@ -213,7 +213,7 @@ namespace Deadspell
                 return false;
             }
 
-            int lcd = GetLCD(lhs.Denominator, rhs.Denominator);
+            long lcd = GetLCD(lhs.Denominator, rhs.Denominator);
             var f1 = lhs.ToDenominator(lcd);
             var f2 = rhs.ToDenominator(lcd);
             return f1.Numerator < f2.Numerator;
@@ -226,13 +226,13 @@ namespace Deadspell
                 return false;
             }
 
-            int lcd = GetLCD(lhs.Denominator, rhs.Denominator);
+            long lcd = GetLCD(lhs.Denominator, rhs.Denominator);
             var f1 = lhs.ToDenominator(lcd);
             var f2 = rhs.ToDenominator(lcd);
             return f1.Numerator <= f2.Numerator;
         }
         
-        public int FloorToInt()
+        public long FloorToInt()
         {
             if (this < Zero)
             {
@@ -241,7 +241,7 @@ namespace Deadspell
             return Numerator / Denominator;
         }
         
-        public int CeilToInt()
+        public long CeilToInt()
         {
             if (this < Zero)
             {
@@ -257,7 +257,7 @@ namespace Deadspell
 
         public override int GetHashCode()
         {
-            return Numerator ^ Denominator;
+            return (int)(Numerator ^ Denominator);
         }
 
         public override bool Equals(object obj)

@@ -15,45 +15,33 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 11400000}
+    ReferencedUnityObjects: []
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
-    - Name: Responses
+    - Name: Opinions
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[Deadspell.Recipes.FactionRecipe,
-        Assembly-CSharp],[Deadspell.Recipes.FactionRecipe+Response, Assembly-CSharp]],
-        mscorlib
+      Data: 0|System.Collections.Generic.Dictionary`2[[Deadspell.Data.Faction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[Deadspell.Recipes.FactionRecipe,
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[Deadspell.Data.Faction,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 10
       Data: 0
-    - Name: $v
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 13
       Data: 
     - Name: 
       Entry: 8
       Data: 
-  Name: Carnivores
-  DefaultResponse: 1
+  DisplayName: Carnivores
+  Visible: 0
+  DefaultOpinion: 0
+  Description: 

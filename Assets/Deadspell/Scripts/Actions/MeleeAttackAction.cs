@@ -21,6 +21,8 @@ namespace Deadspell.Actions
             Vector2Int targetPos = Entity.position.Position + _direction.ToVector2Int();
             foreach (var e in MapData.Spatial.TileContent(targetPos.x, targetPos.y))
             {
+                // TODO
+                /*
                 if ((Entity.hasFaction && e.hasFaction && e.faction.Faction.ResponseTo(Entity.faction.Faction) == Faction.Response.Attack) || _forceAttack)
                 {
                     if (Contexts.sharedInstance.game.gameMap.MapData[Entity.position.Position.x, Entity.position.Position.y]
@@ -34,6 +36,7 @@ namespace Deadspell.Actions
                         return ActionResult.Done;
                     }
                 }
+                */
             }
             
             if (Contexts.sharedInstance.game.gameMap.MapData[Entity.position.Position.x, Entity.position.Position.y]

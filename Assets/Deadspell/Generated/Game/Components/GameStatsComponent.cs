@@ -11,7 +11,7 @@ public partial class GameEntity {
     public Deadspell.Components.StatsComponent stats { get { return (Deadspell.Components.StatsComponent)GetComponent(GameComponentsLookup.Stats); } }
     public bool hasStats { get { return HasComponent(GameComponentsLookup.Stats); } }
 
-    public void AddStats(Deadspell.Components.StatsComponent.Pool newHealth, Deadspell.Components.StatsComponent.Pool newMana, int newExperience, int newLevel, float newTotalWeight, float newTotalInitiativePenalty, float newGold, bool newGodMode) {
+    public void AddStats(Deadspell.Components.StatsComponent.Pool newHealth, Deadspell.Components.StatsComponent.Pool newMana, int newExperience, int newLevel, float newTotalWeight, float newTotalInitiativePenalty, bool newGodMode) {
         var index = GameComponentsLookup.Stats;
         var component = (Deadspell.Components.StatsComponent)CreateComponent(index, typeof(Deadspell.Components.StatsComponent));
         component.Health = newHealth;
@@ -20,12 +20,11 @@ public partial class GameEntity {
         component.Level = newLevel;
         component.TotalWeight = newTotalWeight;
         component.TotalInitiativePenalty = newTotalInitiativePenalty;
-        component.Gold = newGold;
         component.GodMode = newGodMode;
         AddComponent(index, component);
     }
 
-    public void ReplaceStats(Deadspell.Components.StatsComponent.Pool newHealth, Deadspell.Components.StatsComponent.Pool newMana, int newExperience, int newLevel, float newTotalWeight, float newTotalInitiativePenalty, float newGold, bool newGodMode) {
+    public void ReplaceStats(Deadspell.Components.StatsComponent.Pool newHealth, Deadspell.Components.StatsComponent.Pool newMana, int newExperience, int newLevel, float newTotalWeight, float newTotalInitiativePenalty, bool newGodMode) {
         var index = GameComponentsLookup.Stats;
         var component = (Deadspell.Components.StatsComponent)CreateComponent(index, typeof(Deadspell.Components.StatsComponent));
         component.Health = newHealth;
@@ -34,7 +33,6 @@ public partial class GameEntity {
         component.Level = newLevel;
         component.TotalWeight = newTotalWeight;
         component.TotalInitiativePenalty = newTotalInitiativePenalty;
-        component.Gold = newGold;
         component.GodMode = newGodMode;
         ReplaceComponent(index, component);
     }

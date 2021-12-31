@@ -28,11 +28,14 @@ namespace Deadspell.Actions
             // TODO: Check for enemy
             foreach (var e in MapData.Spatial.TileContent(newPos.x, newPos.y))
             {
+                // TODO
+                /*
                 if (Entity.hasFaction && e.hasFaction &&
                     e.faction.Faction.ResponseTo(Entity.faction.Faction) == Faction.Response.Attack)
                 {
                     return new MeleeAttackAction(Entity, _direction, false, _checkForCancel);
                 }
+                */
             }
             
             // Fail if the tile is blocked

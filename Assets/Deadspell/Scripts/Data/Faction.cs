@@ -1,31 +1,33 @@
 ﻿using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Deadspell.Data
 {
     [CreateAssetMenu(menuName = "Deadspell/Faction")]
     public class Faction : SerializedScriptableObject
     {
-        public enum Response
-        {
-            Ignore,
-            Attack,
-            Flee,
-        }
-        
-        public string Name;
-        public Response DefaultResponse = Response.Ignore;
-        public Dictionary<Faction, Response> Responses = new Dictionary<Faction, Response>();
+        [LabelWidth(150)]
+        public string DisplayName;
+        [LabelWidth(150)]
+        public bool Visible = true;
+        [LabelWidth(150)]
+        public int DefaultOpinion = 0;
+        [Title("Description", bold: false)]
+        [HideLabel]
+        [MultiLineProperty(10)]
+        public string Description;
+        public Dictionary<Faction, int> Opinions = new Dictionary<Faction, int>();
 
-        public Response ResponseTo(Faction other)
+        public int OpinionOf(Faction other)
         {
-            if (Responses.TryGetValue(other, out var response))
+            if (Opinions.TryGetValue(other, out var opinion))
             {
-                return response;
+                return opinion;
             }
 
-            return DefaultResponse;
+            return DefaultOpinion;
         }
     }
 }

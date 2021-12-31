@@ -2,6 +2,7 @@
 using Deadspell.Components;
 using Deadspell.Core;
 using Deadspell.Data;
+using Deadspell.Managers;
 using Deadspell.Map;
 using Entitas;
 using UnityEngine;
@@ -33,12 +34,11 @@ namespace Deadspell.Systems
                 1,
                 0,
                 0,
-                10,
                 false);
             player.AddEnergy(0);
-            player.AddFaction(GameManager.Instance.PlayerFaction);
+            player.AddFaction(new List<FactionLoyalty> { new FactionLoyalty { Faction = UniverseManager.Instance.PlayerFaction, Loyalty = 100 }});
             player.isBlocksTile = true;
-            player.AddViewshed(new HashSet<Vector2Int>(), 8, true);
+            player.AddViewshed(new HashSet<Vector2Int>(), 100, true);
         }
     }
 }

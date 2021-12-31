@@ -1,4 +1,6 @@
-﻿using Deadspell.Data;
+﻿using System.Collections.Generic;
+using Deadspell.Core;
+using Deadspell.Data;
 using Entitas;
 
 namespace Deadspell.Components
@@ -6,6 +8,6 @@ namespace Deadspell.Components
     [Game]
     public class FactionComponent : IComponent
     {
-        public Faction Faction;
+        public List<FactionLoyalty> Factions;
     }
 }

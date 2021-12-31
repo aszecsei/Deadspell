@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using Deadspell.Data.Blueprints;
+using UnityEngine;
 
 namespace Deadspell.MapBuilders
 {
@@ -17,6 +19,7 @@ namespace Deadspell.MapBuilders
                 return;
             }
 
+            data.SpawnList ??= new List<(Vector2Int, Blueprint)>();
             for (int i = 1; i < data.Rooms.Count; i++)
             {
                 var room = data.Rooms[i];

@@ -51,8 +51,8 @@ namespace Deadspell.Map
                 return _cardinal switch
                 {
                     Cardinal.North => new Vector2Int(ox + col, oy - depth),
-                    Cardinal.East => new Vector2Int(ox + col, oy + depth),
-                    Cardinal.South => new Vector2Int(ox + depth, oy + col),
+                    Cardinal.South => new Vector2Int(ox + col, oy + depth),
+                    Cardinal.East => new Vector2Int(ox + depth, oy + col),
                     Cardinal.West => new Vector2Int(ox - depth, oy + col),
                     _ => throw new ArgumentOutOfRangeException(nameof(_cardinal)),
                 };
@@ -79,7 +79,7 @@ namespace Deadspell.Map
                 var depth = Depth;
                 for (var col = startCol; col <= endCol; col++)
                 {
-                    yield return new Tile(depth, col);
+                    yield return new Tile(depth, (int)col);
                 }
             }
 
@@ -103,12 +103,12 @@ namespace Deadspell.Map
                    && (col <= (depth * scanline.EndSlope));
         }
 
-        private static int RoundTiesUp(Rational f)
+        private static long RoundTiesUp(Rational f)
         {
             return (f + new Rational(1, 2)).FloorToInt();
         }
 
-        private static int RoundTiesDown(Rational f)
+        private static long RoundTiesDown(Rational f)
         {
             return (f - new Rational(1, 2)).CeilToInt();
         }
@@ -157,7 +157,7 @@ namespace Deadspell.Map
                             var tp = quadrant.Transform(tile);
                             var dx = tp.x - quadrant.Origin.x;
                             var dy = tp.y - quadrant.Origin.y;
-                            if (new Rational(dx * dx + dy * dy) <= radiusPlusHalfSq)
+                            if (true || new Rational(dx * dx + dy * dy) <= radiusPlusHalfSq)
                             {
                                 if (IsOpaque(tile) || IsSymmetric(line, tile))
                                 {

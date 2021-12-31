@@ -25,7 +25,11 @@ namespace Deadspell.Components
         public int Level;
         public float TotalWeight;
         public float TotalInitiativePenalty;
-        public float Gold;
         public bool GodMode;
+    }
+    
+    [Game]
+    public class StatsDirtyComponent : IComponent
+    {
     }
 }

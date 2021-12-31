@@ -22,14 +22,13 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
-    - Name: Responses
+    - Name: Opinions
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[Deadspell.Recipes.FactionRecipe,
-        Assembly-CSharp],[Deadspell.Recipes.FactionRecipe+Response, Assembly-CSharp]],
-        mscorlib
+      Data: 0|System.Collections.Generic.Dictionary`2[[Deadspell.Data.Faction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[Deadspell.Recipes.FactionRecipe,
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[Deadspell.Data.Faction,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 8
@@ -45,7 +44,7 @@ MonoBehaviour:
       Data: 0
     - Name: $v
       Entry: 3
-      Data: 0
+      Data: 100
     - Name: 
       Entry: 8
       Data: 
@@ -55,5 +54,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  Name: Bandits
-  DefaultResponse: 1
+  DefaultOpinion: -600
+  DisplayName: Bandits
+  Description: Those who kill for coin often lack friends outside their own.

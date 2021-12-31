@@ -11,17 +11,17 @@ public partial class GameEntity {
     public Deadspell.Components.FactionComponent faction { get { return (Deadspell.Components.FactionComponent)GetComponent(GameComponentsLookup.Faction); } }
     public bool hasFaction { get { return HasComponent(GameComponentsLookup.Faction); } }
 
-    public void AddFaction(Deadspell.Data.Faction newFaction) {
+    public void AddFaction(System.Collections.Generic.List<Deadspell.Core.FactionLoyalty> newFactions) {
         var index = GameComponentsLookup.Faction;
         var component = (Deadspell.Components.FactionComponent)CreateComponent(index, typeof(Deadspell.Components.FactionComponent));
-        component.Faction = newFaction;
+        component.Factions = newFactions;
         AddComponent(index, component);
     }
 
-    public void ReplaceFaction(Deadspell.Data.Faction newFaction) {
+    public void ReplaceFaction(System.Collections.Generic.List<Deadspell.Core.FactionLoyalty> newFactions) {
         var index = GameComponentsLookup.Faction;
         var component = (Deadspell.Components.FactionComponent)CreateComponent(index, typeof(Deadspell.Components.FactionComponent));
-        component.Faction = newFaction;
+        component.Factions = newFactions;
         ReplaceComponent(index, component);
     }
 

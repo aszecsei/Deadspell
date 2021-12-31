@@ -8,30 +8,34 @@
 //------------------------------------------------------------------------------
 public static class GameComponentsLookup {
 
-    public const int Attributes = 0;
-    public const int BlocksTile = 1;
-    public const int CurrentTurn = 2;
-    public const int DebugMessage = 3;
-    public const int Energy = 4;
-    public const int Faction = 5;
-    public const int GameMap = 6;
-    public const int Hidden = 7;
-    public const int Name = 8;
-    public const int Opaque = 9;
-    public const int PerformingAction = 10;
-    public const int Player = 11;
-    public const int Position = 12;
-    public const int Renderable = 13;
-    public const int Stats = 14;
-    public const int Tooltip = 15;
-    public const int Vendor = 16;
-    public const int Viewshed = 17;
-    public const int TooltipListener = 18;
-    public const int TooltipRemovedListener = 19;
+    public const int AI = 0;
+    public const int Attributes = 1;
+    public const int BlocksTile = 2;
+    public const int CurrentTurn = 3;
+    public const int DebugMessage = 4;
+    public const int Energy = 5;
+    public const int Faction = 6;
+    public const int GameMap = 7;
+    public const int Hidden = 8;
+    public const int Name = 9;
+    public const int Opaque = 10;
+    public const int PerformingAction = 11;
+    public const int Player = 12;
+    public const int Position = 13;
+    public const int Renderable = 14;
+    public const int Skills = 15;
+    public const int Stats = 16;
+    public const int StatsDirty = 17;
+    public const int Tooltip = 18;
+    public const int Vendor = 19;
+    public const int Viewshed = 20;
+    public const int TooltipListener = 21;
+    public const int TooltipRemovedListener = 22;
 
-    public const int TotalComponents = 20;
+    public const int TotalComponents = 23;
 
     public static readonly string[] componentNames = {
+        "AI",
         "Attributes",
         "BlocksTile",
         "CurrentTurn",
@@ -46,7 +50,9 @@ public static class GameComponentsLookup {
         "Player",
         "Position",
         "Renderable",
+        "Skills",
         "Stats",
+        "StatsDirty",
         "Tooltip",
         "Vendor",
         "Viewshed",
@@ -55,6 +61,7 @@ public static class GameComponentsLookup {
     };
 
     public static readonly System.Type[] componentTypes = {
+        typeof(Deadspell.Components.AIComponent),
         typeof(Deadspell.Components.AttributesComponent),
         typeof(Deadspell.Components.BlocksTileComponent),
         typeof(Deadspell.Components.CurrentTurnComponent),
@@ -69,7 +76,9 @@ public static class GameComponentsLookup {
         typeof(Deadspell.Components.PlayerComponent),
         typeof(Deadspell.Components.PositionComponent),
         typeof(Deadspell.Components.RenderableComponent),
+        typeof(Deadspell.Components.SkillsComponent),
         typeof(Deadspell.Components.StatsComponent),
+        typeof(Deadspell.Components.StatsDirtyComponent),
         typeof(Deadspell.Components.TooltipComponent),
         typeof(Deadspell.Components.VendorComponent),
         typeof(Deadspell.Components.ViewshedComponent),

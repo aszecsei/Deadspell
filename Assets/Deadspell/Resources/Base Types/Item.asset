@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3171c3f30e4bc6a80c5f474171522b, type: 3}
+  m_Name: Item
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8487674036372153345, guid: 9b209594a2d86fd45a3343df0459cddf, type: 3}
+    - {fileID: 11400000, guid: e6130d20be3c96743bb068f03b00dd94, type: 2}
+    - {fileID: 11400000, guid: 67ddc86350588ff4a9d00ee3a0d7e54c, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Components
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Deadspell.Data.Blueprints.BlueprintComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Deadspell.Data.Blueprints.Physics, Assembly-CSharp
+    - Name: BlocksTile
+      Entry: 5
+      Data: false
+    - Name: BlocksVisibility
+      Entry: 5
+      Data: false
+    - Name: Weight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Deadspell.Data.Blueprints.Display, Assembly-CSharp
+    - Name: DisplayName
+      Entry: 1
+      Data: '[Item]'
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: Color
+      Entry: 10
+      Data: 1
+    - Name: RenderLayer
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  InheritsFrom: {fileID: 11400000, guid: 17cb4b201f811664c9dbc53703943d87, type: 2}

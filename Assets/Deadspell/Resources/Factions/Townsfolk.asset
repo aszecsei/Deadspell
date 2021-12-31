@@ -16,29 +16,29 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: f982fb0a8d122d047a1ec6d87fe6372d, type: 2}
-    - {fileID: 11400000}
-    - {fileID: 11400000, guid: 7d32abcecc4a9dc4695aa6b68d066a69, type: 2}
+    - {fileID: 11400000, guid: 9aa0082915c2f66468c00a578e484548, type: 2}
+    - {fileID: 11400000, guid: b964d6c9657003f429c6b6e0a094f894, type: 2}
+    - {fileID: 11400000, guid: 81850a4724d2893428e9a832048ab866, type: 2}
+    - {fileID: 11400000, guid: 837f2590c00460943aa121491b167aeb, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
-    - Name: Responses
+    - Name: Opinions
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[Deadspell.Recipes.FactionRecipe,
-        Assembly-CSharp],[Deadspell.Recipes.FactionRecipe+Response, Assembly-CSharp]],
-        mscorlib
+      Data: 0|System.Collections.Generic.Dictionary`2[[Deadspell.Data.Faction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[Deadspell.Recipes.FactionRecipe,
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[Deadspell.Data.Faction,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 4
     - Name: 
       Entry: 7
       Data: 
@@ -47,7 +47,7 @@ MonoBehaviour:
       Data: 0
     - Name: $v
       Entry: 3
-      Data: 0
+      Data: -600
     - Name: 
       Entry: 8
       Data: 
@@ -59,7 +59,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 3
-      Data: 0
+      Data: -250
     - Name: 
       Entry: 8
       Data: 
@@ -71,7 +71,19 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 3
-      Data: 0
+      Data: -100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 3
+    - Name: $v
+      Entry: 3
+      Data: -300
     - Name: 
       Entry: 8
       Data: 
@@ -81,5 +93,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  Name: Townsfolk
-  DefaultResponse: 2
+  DisplayName: Townsfolk
+  Visible: 0
+  DefaultOpinion: 0
+  Description: 

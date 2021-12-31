@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Deadspell.Data.Blueprints;
 using Deadspell.Map;
 using UnityEngine;
 
@@ -9,7 +10,7 @@ namespace Deadspell.MapBuilders
         public struct Data
         {
             // TODO:
-            public List<(Vector2Int, string)> SpawnList;
+            public List<(Vector2Int, Blueprint)> SpawnList;
             public MapData Map;
             public Vector2Int? StartingPosition;
             public List<RectInt> Rooms;
