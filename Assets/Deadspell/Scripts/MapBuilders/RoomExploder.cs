@@ -34,6 +34,7 @@ namespace Deadspell.MapBuilders
                         {
                             if (!data.Map.IsInBounds(drunk.x, drunk.y))
                             {
+                                Debug.LogError("Room expansion went out of bounds");
                                 break;
                             }
                             
@@ -70,7 +71,7 @@ namespace Deadspell.MapBuilders
                                 } break;
                                 case 4:
                                 {
-                                    if (drunk.y < data.Map.Width - 2)
+                                    if (drunk.y < data.Map.Height - 2)
                                     {
                                         drunk.y += 1;
                                     }

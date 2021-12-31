@@ -1,5 +1,4 @@
 ﻿using System;
-using UnityEngine;
 
 namespace Deadspell
 {
@@ -32,13 +31,6 @@ namespace Deadspell
             {
                 Denominator = 1;
                 return;
-            }
-            
-            long gcd;
-            while (Math.Abs(gcd = GetGCD(Numerator, Denominator)) != 1)
-            {
-                Numerator /= gcd;
-                Denominator /= gcd;
             }
         }
 
@@ -118,7 +110,7 @@ namespace Deadspell
             if (Denominator != target)
             {
                 long factor = target / Denominator;
-                return new Rational(Numerator * factor, Denominator);
+                return new Rational(Numerator * factor, target);
             }
 
             return this;

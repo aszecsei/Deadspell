@@ -131,11 +131,17 @@ namespace Deadspell.Map
                     markVisible(xy);
                 }
 
-                bool IsOpaque(Tile tile)
+                bool IsWall(Tile? tile)
                 {
-                    var xy = quadrant.Transform(tile);
-                    bool result = isOpaque(xy);
-                    return result;
+                    if (tile == null) return false;
+                    var xy = quadrant.Transform(tile.Value);
+                    return isOpaque(xy);
+                }
+                bool IsFloor(Tile? tile)
+                {
+                    if (tile == null) return false;
+                    var xy = quadrant.Transform(tile.Value);
+                    return !isOpaque(xy);
                 }
 
                 void Scan(Scanline scanline)
@@ -157,38 +163,32 @@ namespace Deadspell.Map
                             var tp = quadrant.Transform(tile);
                             var dx = tp.x - quadrant.Origin.x;
                             var dy = tp.y - quadrant.Origin.y;
-                            if (true || new Rational(dx * dx + dy * dy) <= radiusPlusHalfSq)
+                            if (new Rational(dx * dx + dy * dy) <= radiusPlusHalfSq)
                             {
-                                if (IsOpaque(tile) || IsSymmetric(line, tile))
+                                if (IsWall(tile) || IsSymmetric(line, tile))
                                 {
                                     Reveal(tile);
                                 }
 
-                                if (prevTile.HasValue)
+                                if (IsWall(prevTile) && IsFloor(tile))
                                 {
-                                    if (IsOpaque(prevTile.Value) && !IsOpaque(tile))
-                                    {
-                                        line.StartSlope = Slope(tile);
-                                    }
+                                    line.StartSlope = Slope(tile);
+                                }
 
-                                    if (!IsOpaque(prevTile.Value) && IsOpaque(tile))
-                                    {
-                                        var nextLine = line.Next();
-                                        nextLine.EndSlope = Slope(tile);
-                                        stack.Push(nextLine);
-                                    }
+                                if (IsFloor(prevTile) && IsWall(tile))
+                                {
+                                    var nextLine = line.Next();
+                                    nextLine.EndSlope = Slope(tile);
+                                    stack.Push(nextLine);
                                 }
 
                                 prevTile = tile;
                             }
                         }
 
-                        if (prevTile.HasValue)
+                        if (IsFloor(prevTile))
                         {
-                            if (!IsOpaque(prevTile.Value))
-                            {
-                                stack.Push(line.Next());
-                            }
+                            stack.Push(line.Next());
                         }
                     }
                 }
